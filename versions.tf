@@ -11,6 +11,5 @@ terraform {
 # provider block
 
 provider "aws" {
-  profile = var.profile
-  region  = var.aws_region
+  region  = "us-east-1"
 }
