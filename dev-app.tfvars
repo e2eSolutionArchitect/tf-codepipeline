@@ -2,15 +2,7 @@
 project = "e2esa-tutorials"
 
 # General 
-aws_region  = "us-east-1"
-profile     = "default"
-environment = "dev"
+aws_region = "us-east-1"
 
-# Backend
-backend_s3_bucket      = "e2esa-tf-states"
-backend_dynamodb_table = "e2esa-tf-locks"
-
-# ECS
-create_ecs_cluster = true
-ecs_cluster_name   = "e2esa-cluster-dev"
-container_insights = false
+ami="ami-08d4ac5b634553e16"
+availability_zone ="us-east-1a"
